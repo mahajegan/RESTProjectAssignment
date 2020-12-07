@@ -1,0 +1,45 @@
+2020-12-07 15:23:51,253 WARN  [SoapUI] Missing folder [C:\Users\MahalakshmiKathamuth\RESTProjectSDET\ext] for external libraries
+2020-12-07 15:23:51,639 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\MahalakshmiKathamuth\soapui-settings.xml]
+2020-12-07 15:23:53,179 INFO  [WsdlProject] Loaded project from [file:/C:/Users/MahalakshmiKathamuth/RESTProjectSDET/REST-Project-Assignment-soapui-project.xml]
+2020-12-07 15:23:53,966 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [REST Project_Assignment]
+2020-12-07 15:23:53,973 INFO  [SoapUITestCaseRunner] Running Project [REST Project_Assignment], runType = SEQUENTIAL
+2020-12-07 15:23:54,037 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+2020-12-07 15:23:54,050 INFO  [SoapUITestCaseRunner] running step [AccessToken]
+2020-12-07 15:24:13,077 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-12-07 15:24:13,077 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-12-07 15:24:13,078 INFO  [SoapUITestCaseRunner] running step [Groovy Script for Access Token]
+2020-12-07 15:24:13,651 INFO  [log] {"success":1,"error":[],"data":{"access_token":"213621205b3e6a0eba9691604a31e01dadca2aef","expires_in":86400,"token_type":"Bearer"}}
+2020-12-07 15:24:13,688 INFO  [log] 213621205b3e6a0eba9691604a31e01dadca2aef
+2020-12-07 15:24:13,701 INFO  [log] Bearer 213621205b3e6a0eba9691604a31e01dadca2aef
+2020-12-07 15:24:13,709 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-12-07 15:24:13,732 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-12-07 15:24:14,427 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-12-07 15:24:14,428 INFO  [SoapUITestCaseRunner] running step [AddCustomer]
+2020-12-07 15:24:14,753 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-12-07 15:24:14,754 INFO  [SoapUITestCaseRunner] running step [Groovy Script for Add Customer]
+2020-12-07 15:24:14,804 INFO  [log] Testcase name is TestCase 1
+2020-12-07 15:24:14,811 INFO  [log] TestSuite name is TestSuite 1
+2020-12-07 15:24:14,815 INFO  [log] Request is {
+"firstname": "Demo",
+"lastname": "User01",
+"email": "usermaha6@gmail.com",
+"password": "password",
+"confirm": "password", 
+"telephone": "1-541-754-3010"
+}
+2020-12-07 15:24:14,820 INFO  [log] {confirm=password, firstname=Demo, password=password, telephone=1-541-754-3010, email=usermaha6@gmail.com, lastname=User01}
+2020-12-07 15:24:14,821 INFO  [log] Response is {"success":0,"error":["Warning: E-Mail Address is already registered!"],"data":[]}
+2020-12-07 15:24:14,823 INFO  [log] [Warning: E-Mail Address is already registered!]
+2020-12-07 15:24:14,823 INFO  [SoapUITestCaseRunner] running step [GetByID]
+2020-12-07 15:24:15,811 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-12-07 15:24:15,812 INFO  [SoapUITestCaseRunner] running step [AddRewards]
+2020-12-07 15:24:16,216 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-12-07 15:24:16,275 INFO  [SoapUITestCaseRunner] running step [GetByIDAfterAddingRewards]
+2020-12-07 15:24:16,653 INFO  [log] Response is {"success":1,"error":[],"data":{"store_id":0,"customer_id":3659,"customer_group_id":1,"firstname":"Demo","lastname":"User01","telephone":"1-541-754-3010","email":"usermaha6@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"07\/12\/2020","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":"200","transaction_total":"?0.00"}}
+2020-12-07 15:24:16,657 INFO  [log] 3659
+2020-12-07 15:24:16,658 INFO  [log] 200
+2020-12-07 15:24:16,660 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-12-07 15:24:16,660 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-12-07 15:24:16,661 INFO  [SoapUITestCaseRunner] running step [Groovy Script to fetch data from Properties]
+2020-12-07 15:24:16,716 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 22173ms, status: FINISHED
+2020-12-07 15:24:16,732 INFO  [SoapUITestCaseRunner] Project [REST Project_Assignment] finished with status [FINISHED] in 22751ms

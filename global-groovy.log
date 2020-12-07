@@ -1,0 +1,19 @@
+2020-12-07 15:24:13,651 INFO  [log] {"success":1,"error":[],"data":{"access_token":"213621205b3e6a0eba9691604a31e01dadca2aef","expires_in":86400,"token_type":"Bearer"}}
+2020-12-07 15:24:13,688 INFO  [log] 213621205b3e6a0eba9691604a31e01dadca2aef
+2020-12-07 15:24:13,701 INFO  [log] Bearer 213621205b3e6a0eba9691604a31e01dadca2aef
+2020-12-07 15:24:14,804 INFO  [log] Testcase name is TestCase 1
+2020-12-07 15:24:14,811 INFO  [log] TestSuite name is TestSuite 1
+2020-12-07 15:24:14,815 INFO  [log] Request is {
+"firstname": "Demo",
+"lastname": "User01",
+"email": "usermaha6@gmail.com",
+"password": "password",
+"confirm": "password", 
+"telephone": "1-541-754-3010"
+}
+2020-12-07 15:24:14,820 INFO  [log] {confirm=password, firstname=Demo, password=password, telephone=1-541-754-3010, email=usermaha6@gmail.com, lastname=User01}
+2020-12-07 15:24:14,821 INFO  [log] Response is {"success":0,"error":["Warning: E-Mail Address is already registered!"],"data":[]}
+2020-12-07 15:24:14,823 INFO  [log] [Warning: E-Mail Address is already registered!]
+2020-12-07 15:24:16,653 INFO  [log] Response is {"success":1,"error":[],"data":{"store_id":0,"customer_id":3659,"customer_group_id":1,"firstname":"Demo","lastname":"User01","telephone":"1-541-754-3010","email":"usermaha6@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"07\/12\/2020","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":"200","transaction_total":"?0.00"}}
+2020-12-07 15:24:16,657 INFO  [log] 3659
+2020-12-07 15:24:16,658 INFO  [log] 200
